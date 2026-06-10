@@ -49,7 +49,7 @@ async function renderCategoryPage(category, page = 1) {
         <a href="#" data-page="blog" data-post="${post.path}">
           <div class="left">
             <h2 class="blog-title">${post.title}</h2>
-            <span class="time">${post.date}</span>
+            <span class="time">${formatDate(post.date)}</span>
           </div>
           <div class="right">
             <img src="${post.cover || './assets/blog.png'}" alt="${post.title}">

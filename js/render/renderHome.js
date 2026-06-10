@@ -46,7 +46,7 @@ function buildCardHTML(post, category) {
             <path d="M8 11h4" />
             <path d="M8 15h3" />
           </svg>
-          <span class="time">${post.date}</span>
+          <span class="time">${formatDate(post.date)}</span>
         </div>
       </div>
     </li>

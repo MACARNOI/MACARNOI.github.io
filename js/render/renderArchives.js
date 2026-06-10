@@ -82,7 +82,7 @@ async function renderArchivesPage(scrollToYear) {
                   <a href="#" data-page="blog" data-post="${post.path}">
                     <div class="left">
                       <h2 class="blog-title">${post.title}</h2>
-                      <span class="time">${post.date}</span>
+                      <span class="time">${formatDate(post.date)}</span>
                     </div>
                     <div class="right">
                       <img src="${post.cover || './assets/images/blog.png'}" alt="${post.title}">

@@ -56,7 +56,7 @@ async function renderBlogPage(postPath) {
                     <path d="M8 11h4" />
                     <path d="M8 15h3" />
                   </svg>
-                  <span class="time">${postMeta.date}</span>
+                  <span class="time">${formatDate(postMeta.date)}</span>
                 </div>
               </div>
             </header>
