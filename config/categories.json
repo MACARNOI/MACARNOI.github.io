@@ -2,5 +2,9 @@
   "生活分享": {
     "description": "这里展示了TouchGal每月的捐赠总结",
     "cover": "./assets/images/blog/blog.png"
+  },
+  "使用教程": {
+    "description": "这是本博客框架的使用教程",
+    "cover": "./assets/images/categories/jiaocheng.png"
   }
 }
